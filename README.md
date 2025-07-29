@@ -39,7 +39,7 @@ pip install -r Github/requirements.txt
 ```
 
 Required packages:
-- mediapipe (includes OpenCV)
+- mediapipe
 - pandas
 - numpy
 - matplotlib
@@ -218,9 +218,9 @@ When contributing to this project:
 - Consider batch processing for multiple files
 
 ## License
+MIT License
 
-[Add your license information here]
 
 ## Contact
 
-[Add contact information here]
+1shivam.bhola@gmail.com
