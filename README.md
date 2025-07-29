@@ -16,7 +16,6 @@ SmartGait provides advanced biomechanical analysis through two independent proce
 - Joint angle calculations for 8 key joints (hip, knee, ankle, shoulder)
 - Range of Motion (ROM) analysis
 - Gait cycle detection and analysis
-- Baseball swing biomechanics analysis
 - Comprehensive visualization dashboards
 
 ### Smart Insole Pipeline
@@ -97,8 +96,6 @@ SmartGait/
 │   │   ├── pe/               # Pose estimation analysis
 │   │   │   ├── ROM.py        # Range of motion calculations
 │   │   │   ├── gait_detect.py # Gait cycle detection
-│   │   │   ├── baseball_analysis.py # Baseball biomechanics
-│   │   │   └── baseball_*.py  # Baseball-specific modules
 │   │   └── si/               # Smart insole analysis
 │   │       ├── step_detection.py # Step detection algorithms
 │   │       ├── time_parameters.py # Temporal analysis
@@ -132,7 +129,6 @@ SmartGait/
 │       └── pose_landmarker_heavy.task # MediaPipe model
 │
 ├── raw codes/                # Legacy analysis scripts
-└── Baseball_analysis/        # Baseball-specific analysis
 ```
 
 ## Usage Examples
@@ -174,13 +170,6 @@ SmartGait/
 - **Analysis Window**: 30% of total data
 
 ## Advanced Features
-
-### Baseball Analysis
-Specialized biomechanical analysis for baseball swings:
-- Swing trajectory analysis
-- Peak velocity calculations
-- Joint coordination patterns
-- Baseball-specific visualizations
 
 ### Signal Processing
 - Savitzky-Golay smoothing
