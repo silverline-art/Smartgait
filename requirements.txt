@@ -1,0 +1,6 @@
+mediapipe
+pandas
+numpy
+matplotlib
+scipy
+seaborn
